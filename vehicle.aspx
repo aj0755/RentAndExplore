@@ -19,31 +19,31 @@
 
   <section class="vehicle-list">
     <div class="vehicle-card">
-      <img src="car.jpg" alt="Car">
+      <img src="Images/camryCar.jpeg" alt="Car">
       <h3>Sedan - Toyota Camry</h3>
       <p>Comfortable and stylish sedan. ₹240/hr</p>
       <button class="btn">Rent Now</button>
     </div>
     <div class="vehicle-card">
-      <img src="bike.jpg" alt="Bike">
+      <img src="Images/YR1.jpeg" alt="Bike">
       <h3>Sports Bike - Yamaha R1</h3>
       <p>Fast and sleek sports bike. ₹150/hr</p>
       <button class="btn">Rent Now</button>
     </div>
     <div class="vehicle-card">
-      <img src="truck.jpg" alt="Truck">
+      <img src="Images/FordF-150.jpg" alt="Truck">
       <h3>Truck - Ford F-150</h3>
       <p>Heavy-duty truck for transport. ₹600/hr</p>
       <button class="btn">Rent Now</button>
     </div>
     <div class="vehicle-card">
-      <img src="car2.jpg" alt="Car">
+      <img src="Images/HondaCRV.jpeg" alt="Car">
       <h3>SUV - Honda CR-V</h3>
       <p>Spacious and reliable SUV. ₹250/hr</p>
       <button class="btn">Rent Now</button>
     </div>
     <div class="vehicle-card">
-      <img src="bike2.jpg" alt="Bike">
+      <img src="Images/HondaActiva.jpg" alt="Bike">
       <h3>City Bike - Honda Activa</h3>
       <p>Economical and easy to ride. ₹100/hr</p>
       <button class="btn">Rent Now</button>

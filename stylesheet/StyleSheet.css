@@ -57,7 +57,7 @@ header {
 }
 
 .hero {
-  background: url('http://localhost:15477/RentAndExplore/Images/car.jpg') no-repeat center center/cover;
+  background: url('http://localhost:53448/RentAndExplore/Images/car.jpg') no-repeat center center/cover;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -128,7 +128,7 @@ footer {
 .vehicle-search {
   text-align: center;
   padding: 30px 20px;
-  background-color: #f4f4f4;
+  background-color: #CDC7BE;
 }
 
 .vehicle-search h1 {
@@ -214,13 +214,13 @@ footer {
 /* Mission and Vision Section */
 .mission-vision 
 {
-    background-color:#CDC7BE;
+  background-color:#CDC7BE;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   padding: 40px 20px;
-  background: #fff;
+  background: #CDC7BE;
 }
 
 .mission, .vision {
@@ -240,7 +240,7 @@ footer {
 
 /* Testimonials Section */
 .testimonials {
-  background-color: #0056d6;
+  background-color: #CDC7BE;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -283,7 +283,7 @@ footer {
 /* Contact Section */
 .contact {
   padding: 40px 20px;
-  background-color: #f4f4f4;
+  background-color: #CDC7BE;
   text-align: center;
 }
 
