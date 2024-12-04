@@ -33,7 +33,7 @@
     <div class="vehicle-card">
       <img src="Images/FordF-150.jpg" alt="Truck">
       <h3>Truck - Ford F-150</h3>
-      <p>Heavy-duty truck for transport. ₹600/hr</p>
+      <p>Heavy-duty truck for transport. ₹650/hr</p>
       <button class="btn">Rent Now</button>
     </div>
     <div class="vehicle-card">
