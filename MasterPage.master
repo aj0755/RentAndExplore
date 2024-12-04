@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Vehicle Rental System</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+     <header>
+    <%--// Navaigation bar--%>
+    <nav class="navbar">
+      <div class="logo">RentalRide</div>
+      <ul class="nav-links">
+        <li><a href="homepage.aspx">Home</a></li>
+        <li><a href="vehicle.aspx">Vehicles</a></li>
+        <li><a href="about.aspx">About</a></li>
+        <li><a href="contact.aspx">Contact</a></li>
+      </ul>
+      <a href="login.aspx" class="btn">Login</a>
+    </nav>
+  </header>
+  <div id="bg">
+      <form id="form1" runat="server">
+     <div>
+  
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>    
+        </div>
+    </form>
+    </div>
+    <%-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%"></iframe>--%>
+        <footer>
+    <p>&copy; 2024 RentalRide. All Rights Reserved.</p>
+  </footer>
+
+
+</body>
+</html>
