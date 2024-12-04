@@ -212,7 +212,9 @@ footer {
 }
 
 /* Mission and Vision Section */
-.mission-vision {
+.mission-vision 
+{
+    background-color:#CDC7BE;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
