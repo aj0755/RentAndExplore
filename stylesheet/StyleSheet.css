@@ -19,7 +19,7 @@ header {
 
 #bg
 {
-    background-color: #CDC7BE;
+    background-color: #F7DCB9;
 }
 .navbar {
   display: flex;
@@ -128,7 +128,7 @@ footer {
 .vehicle-search {
   text-align: center;
   padding: 30px 20px;
-  background-color: #CDC7BE;
+  background-color: #F7DCB9;
 }
 
 .vehicle-search h1 {
@@ -193,7 +193,7 @@ footer {
 
 /* About Section */
 .about {
-  background-color: #CDC7BE;
+  background-color: #F7DCB9;
   padding: 40px 20px;
   text-align: center;
 }
@@ -214,13 +214,13 @@ footer {
 /* Mission and Vision Section */
 .mission-vision 
 {
-  background-color:#CDC7BE;
+  background-color:#F7DCB9;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   padding: 40px 20px;
-  background: #CDC7BE;
+  background: #F7DCB9;
 }
 
 .mission, .vision {
@@ -240,7 +240,7 @@ footer {
 
 /* Testimonials Section */
 .testimonials {
-  background-color: #CDC7BE;
+  background-color: #F7DCB9;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -283,7 +283,7 @@ footer {
 /* Contact Section */
 .contact {
   padding: 40px 20px;
-  background-color: #CDC7BE;
+  background-color: #F7DCB9;
   text-align: center;
 }
 
