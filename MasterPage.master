@@ -17,7 +17,7 @@
      <header>
     <%--// Navaigation bar--%>
     <nav class="navbar">
-      <div class="logo">RentalRide</div>
+      <div class="logo">RentalAndExplore</div>
       <ul class="nav-links">
         <li><a href="homepage.aspx">Home</a></li>
         <li><a href="vehicle.aspx">Vehicles</a></li>

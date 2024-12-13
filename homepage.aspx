@@ -11,6 +11,12 @@
       <button class="btn">Explore Vehicles</button>
     </div>
   </section>
+  <section class="about">
+    <div class="about-content">
+      <h1>About Us</h1>
+      <p>At <strong>RentalRide</strong>, we strive to provide affordable and reliable vehicle rentals tailored to meet your needs. With a wide range of cars, bikes, and trucks, we’ve been helping customers travel in comfort and style since 2015.</p>
+    </div>
+  </section>
    <section class="categories">
     <h2>Vehicle Categories</h2>
     <div class="category-cards">
@@ -29,12 +35,6 @@
         <h3>Trucks</h3>
         <p>Heavy-duty trucks for your transport needs.</p>
       </div>
-    </div>
-  </section>
-  <section class="about">
-    <div class="about-content">
-      <h1>About Us</h1>
-      <p>At <strong>RentalRide</strong>, we strive to provide affordable and reliable vehicle rentals tailored to meet your needs. With a wide range of cars, bikes, and trucks, we’ve been helping customers travel in comfort and style since 2015.</p>
     </div>
   </section>
 
