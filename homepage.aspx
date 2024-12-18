@@ -4,13 +4,19 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <%--Hero section--%>
-   <section class="hero">
-    <div class="hero-content">
-      <h1>Find Your Perfect Ride</h1>
-      <p>Affordable and reliable vehicle rentals for all your needs.</p>
-      <button class="btn">Explore Vehicles</button>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Book a Car Near You and Drive in Minutes!</h1>
+            <p>Book the safest and most affordable rides for driving solo. Join our service instantly by installing our app.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn">App Store</a>
+                <a href="#" class="btn">Google Play</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="../Images/hero-car.png" alt="Car Image" style="max-width: 100%; height: auto;" />
+        </div>
     </div>
-  </section>
   <section class="about">
     <div class="about-content">
       <h1>About Us</h1>
