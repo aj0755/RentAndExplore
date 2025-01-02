@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <!-- Homepage Content -->
-       <%--<div class="container">--%>
+       <!--<div class="container">--%>
             <!-- Hero Section -->
             <section class="hero">
                 <img src="Images/hero.jpeg" alt="Hero Image"/>
