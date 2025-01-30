@@ -16,9 +16,21 @@ public partial class admindashboard : System.Web.UI.Page
         try
         {
             con.Open();
-            SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM RAE_User", con);
-            int userCount = (int)cmd.ExecuteScalar(); 
+            SqlCommand countuser= new SqlCommand("SELECT COUNT(*) FROM RAE_User", con);
+            int userCount = (int)countuser.ExecuteScalar(); 
             lblTotalUsers.Text = userCount.ToString();
+
+            SqlCommand countcat= new SqlCommand("SELECT COUNT(*) FROM RAE_Category", con);
+            int catCount = (int)countcat.ExecuteScalar();
+            lblTotalCategories.Text = catCount.ToString();
+
+            SqlCommand countVehicle = new SqlCommand("SELECT COUNT(*) FROM RAE_Vehicle", con);
+            int vehicleCount = (int)countVehicle.ExecuteScalar();
+            lblTotalProducts.Text = vehicleCount.ToString();
+
+            SqlCommand countBook = new SqlCommand("SELECT COUNT(*) FROM RAE_Booking", con);
+            int BookCount = (int)countBook.ExecuteScalar();
+            lblTotalOrders.Text = BookCount.ToString();
             con.Close();
         }
         catch (Exception ex)
