@@ -44,6 +44,14 @@
             <asp:Button ID="btnBookVehicle" runat="server" Text="Book Now" CssClass="button" />
 
     </section>
+     <div class="back-button-container">
+        <button onclick="goBack()" class="back-button">Back</button>
+        </div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+</script>
 </div>
 </asp:Content>
 

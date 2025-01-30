@@ -48,13 +48,15 @@
         
         </asp:ContentPlaceHolder>
     </div>
-    </form>
 
      <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-container">
         <div class="footer-brand">
             <img src="Logo/logo.jpg" alt="Rent And Explore Logo" />
+            <p>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            </p>
             <p>Making vehicle rental convenient and affordable.</p>
         </div>
 
@@ -82,12 +84,12 @@
         <div class="footer-newsletter">
             <h3>Stay Updated</h3>
             <p>Subscribe to get the latest deals and updates.</p>
-            <form>
                 <input type="email" placeholder="Enter your email" required />
                 <button type="submit">Subscribe</button>
-            </form>
         </div>
     </div>
     </footer>
-</body>
+    </form>
+
+     </body>
 </html>

@@ -22,5 +22,13 @@
                 <!-- Additional Machinery -->
             </div>
         </section>
+         <div class="back-button-container">
+        <button onclick="goBack()" class="back-button">Back</button>
+        </div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+</script>
 </asp:Content>
 

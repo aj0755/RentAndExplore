@@ -5,13 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <h1><Center>Explore Our Vehicles</Center></h1>
 
-   <%-- <div class="vehicles-container">
-        <!-- Category Tabs -->
-        <div class="vehicles-tabs">
-            <button onclick="scrollToSection('vehicles-cars')">Cars</button>
-            <button onclick="scrollToSection('vehicles-bikes')">Bikes</button>
-            <button onclick="scrollToSection('vehicles-machinery')">Heavy Machinery</button>
-        </div>--%>
+  
 
         <!-- Cars Section -->
         <section id="vehicles-cars" class="vehicles-section-cars">
@@ -90,6 +84,8 @@
                 <!-- Additional Machinery -->
             </div>
         </section>
+       
+        
     </div>
 </asp:Content>
 

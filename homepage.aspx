@@ -9,7 +9,7 @@
             <!-- Hero Section -->
     <section class="hero">
                 <img src="Images/hero.jpeg" alt="Hero Image"/>
-                <div class="hero-overlay">
+                <%--<div class="hero-overlay">
             <h1>Explore the Road with Ease</h1>
             <form class="date-selector">
                 <label for="vehicle-category">Select Vehicle Category:</label>
@@ -23,7 +23,7 @@
                 <input type="date" id="rental-date-end" placeholder="End Date">
                 <button type="submit">Search</button>
             </form>
-        </div>
+        </div>--%>
     </section>
     <div class="container">
         <!-- Brands Section -->
