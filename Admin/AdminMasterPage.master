@@ -35,10 +35,10 @@
                         <a href="adminmanagecategory.aspx"><i class="fas fa-list"></i> Category Master</a>
                     </li>
                     <li>
-                        <a href="manageproduct.aspx"><i class="fas fa-box"></i> Product Master</a>
+                        <a href="manageproduct.aspx"><i class="fas fa-car"></i> Vehicle Master</a>
                     </li>
                     <li>
-                        <a href="OrderMaster.aspx"><i class="fas fa-shopping-cart"></i> Order Master</a>
+                        <a href="OrderMaster.aspx"><i class="fas fa-shopping-cart"></i> Rent Master</a>
                     </li>
                 </ul>
             </nav>

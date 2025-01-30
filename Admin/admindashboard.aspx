@@ -26,10 +26,10 @@
             </div>
             <div class="dashboard-card">
                 <div class="card-body">
-                    <span class="card-icon"><i class="fa-regular fa-cake"></i></span>
+                    <span class="card-icon"><i class="fa-solid fa-car"></i></span>
                     <div class="card-info">
                         <asp:Label ID="lblTotalProducts" runat="server" CssClass="card-count" Text="0"></asp:Label>
-                        <span>Total Products</span>
+                        <span>Total Vehicles</span>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <span class="card-icon"><i class="fa-solid fa-cart-arrow-down"></i></span>
                     <div class="card-info">
                         <asp:Label ID="lblTotalOrders" runat="server" CssClass="card-count" Text="0"></asp:Label>
-                        <span>Total Orders</span>
+                        <span>Total Renting</span>
                     </div>
                 </div>
             </div>
