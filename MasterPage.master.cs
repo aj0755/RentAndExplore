@@ -23,6 +23,10 @@ public partial class MasterPage : System.Web.UI.MasterPage
                 Console.WriteLine("Session UserEmail is null.");
             }
         }
+        if (Application["VisitorCount"] != null)
+        {
+            lblVisitorCount.Text = "Visitors: " + Application["VisitorCount"].ToString();
+        }
         
     }
     protected void btnUserLogo_Click(object sender, ImageClickEventArgs e)

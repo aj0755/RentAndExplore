@@ -12,12 +12,7 @@
     <link href="../Content/AdminStyleSheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<%--    <form id="form1" runat="server">
-    <div>
-        
-    </div>
-    </form>--%>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div class="wrapper">
             <!-- Sidebar -->
             <nav class="sidebar">

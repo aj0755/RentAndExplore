@@ -55,7 +55,7 @@
         <div class="footer-brand">
             <img src="Logo/logo.jpg" alt="Rent And Explore Logo" />
             <p>
-                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblVisitorCount" runat="server" ></asp:Label>
             </p>
             <p>Making vehicle rental convenient and affordable.</p>
         </div>
