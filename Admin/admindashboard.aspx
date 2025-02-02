@@ -63,15 +63,23 @@
             <div class="dashboard-section">
                 <div class="section-header">
                     <h4>Active Categories</h4>
-                    <asp:Button ID="btnAddCategory" runat="server" CssClass="btn-style" Text="Add Category"/>
+                    <asp:Button ID="btnAddCategory" runat="server" CssClass="btn-style" 
+                        Text="Add Category" onclick="btnAddCategory_Click"/>
                 </div>
                 <div class="section-body">
-                    <asp:GridView ID="gvCategories" runat="server" CssClass="table-style" AutoGenerateColumns="false">
+                    <asp:GridView ID="gvCategories" runat="server" CssClass="table-style" 
+                        AutoGenerateColumns="False" DataKeyNames="Category_ID" 
+                        DataSourceID="SqlDataSource2">
                         <Columns>
-                            <asp:BoundField DataField="CategoryName" HeaderText="Category Name" />
-                            <asp:BoundField DataField="CreateOn" HeaderText="Create Date" />
+                            <asp:BoundField DataField="Category_ID" HeaderText="Category_ID" 
+                                ReadOnly="True" SortExpression="Category_ID" />
+                            <asp:BoundField DataField="CategoryName" HeaderText="CategoryName" 
+                                SortExpression="CategoryName" />
                         </Columns>
                     </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+                        ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+                        SelectCommand="SELECT * FROM [RAE_Category]"></asp:SqlDataSource>
                     <asp:Label ID="lblErrorMsg" runat="server"></asp:Label>
                 </div>
             </div>

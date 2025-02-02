@@ -38,4 +38,8 @@ public partial class admindashboard : System.Web.UI.Page
             lblErrorMsg.Text = ex.Message;
         }
     }
+    protected void btnAddCategory_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Admin/adminmanagecategory.aspx");
+    }
 }
