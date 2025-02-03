@@ -35,6 +35,8 @@
                     <img src="Logo/toyota.jpg" alt="Toyota"/>
                     <img src="Logo/honda.jpg" alt="Honda"/>
                     <img src="Logo/hyundai.jpg" alt="Hyundai"/>
+                    <img src="Logo/Mahindra-Mahindra-Logo.png" alt="Mahindra" />
+                    <img src="Logo/kia.jpg" alt="Kia" />
                 </div>
             </section>
         <!-- About Us Section -->
@@ -50,19 +52,22 @@
                         <img src="Images/LuxSedan.jpg" />
                         <h3>Luxury Sedan</h3>
                         <p>Perfect for city and highway drives with premium comfort.</p>
-                        <button><a href="Sedan.aspx">Rent Now</a></button>
+                        <asp:Button ID="Button1" runat="server" Text="Rent Now" CssClass=" vehicle-item-button" 
+                            ></asp:Button>
                     </div>
                     <div class="vehicle-item">
                         <img src="Images/SportsBike.jpg" />
                         <h3>Sports Bike</h3>
                         <p>Fast and stylish bike for adrenaline-packed rides.</p>
-                        <button><a href="SportBike.aspx">Rent Now</a></button>
+                        <asp:Button ID="Button2" runat="server" Text="Rent Now" CssClass=" vehicle-item-button" 
+                            ></asp:Button>
                     </div>
                     <div class="vehicle-item">
                         <img src="Images/putruck.jpg" />
                         <h3>Pickup Truck</h3>
                         <p>Ideal for transporting goods and heavy loads efficiently.</p>
-                        <button><a href="Truck.aspx">Rent Now</a></button>
+                        <asp:Button ID="Button3" runat="server" Text="Rent Now" CssClass=" vehicle-item-button" 
+                            ></asp:Button>
                     </div>
                 </div>
             </section>

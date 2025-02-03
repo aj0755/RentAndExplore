@@ -15,19 +15,20 @@
                     <img src="Images/hatchback.jpg"  alt="Car 1">
                     <h3>Hatchback</h3>
                     <p>Compact and easy to drive</p>
-                    <button><a href="hatchbackcars.aspx">View Details</a> </button>
+                  <asp:Button ID="Button1" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
+                  
                 </div>
                 <div class="vehicles-card-cars">
                     <img src="Images/seden.jpg" alt="Car 1">
                     <h3>Sedan</h3>
                     <p>Comfortable and stylish</p>
-                    <button><a href="Sedan.aspx">View Details</a></button>
+              <asp:Button ID="Button2" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <div class="vehicles-card-cars">
                     <img src="Images/suv.jpg"  alt="Car 2">
                     <h3>SUV</h3>
                     <p>Spacious and powerful</p>
-                    <button><a href="Suv.aspx">View Details</a></button>
+                    <asp:Button ID="Button3" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <!-- Additional Cars -->
             </div>
@@ -41,19 +42,19 @@
                     <img src="Images/Scooty.jpg"  alt="Scooty">
                     <h3>Scooty</h3>
                     <p>Comfartable and Easy to drive</p>
-                    <button><a href="Scooty.aspx">View Details</a></button>
+                 <asp:Button ID="Button4" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <div class="vehicles-card-bikes">
                     <img  src="Images/Sportbike2.jpg" alt="Sportbike1">
                     <h3>Sport Bike</h3>
                     <p>High-speed thrill</p>
-                    <button><a href="SportBike.aspx">View Details</a></button>
+                   <asp:Button ID="Button5" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <div class="vehicles-card-bikes">
                     <img   src="Images/bike1.jpg" alt="Bike1">
                     <h3>Bike</h3>
                     <p>Comfortable long rides</p>
-                    <button><a href="Bike.aspx">View Details</a></button>
+               <asp:Button ID="Button6" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <!-- Additional Bikes -->
             </div>
@@ -67,19 +68,19 @@
                     <img src="Images/dumper.jpg" alt="Machine 1">
                     <h3>Truck</h3>
                     <p>Heavy-duty commercial truck</p>
-                    <button><a href="Truck.aspx">View Details</a></button>
+                 <asp:Button ID="Button7" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <div class="vehicles-card-machinery">
                     <img src="Images/Forklift.jpg" alt="Machine 1">
                     <h3>Forklift</h3>
                     <p>Efficient material handling</p>
-                    <button><a href="Forklift.aspx">View Details</a></button>
+                <asp:Button ID="Button8" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <div class="vehicles-card-machinery">
                     <img src="Images/Excavator.jpg" alt="Machine 2">
                     <h3>Excavator</h3>
                     <p>Heavy-duty excavation</p>
-                    <button><a href="excavator.aspx">View Details</a></button>
+             <asp:Button ID="Button9" runat="server" Text="View Details" CssClass="vehicles-card-cars button"></asp:Button>
                 </div>
                 <!-- Additional Machinery -->
             </div>
