@@ -444,3 +444,45 @@ label {
 .delete-btn:hover {
     color: darkred;
 }
+
+/*Booking Page Css*/
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.input-text {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-search {
+    background-color: #00ACED;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin:10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-search:hover {
+    background-color: #218838;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-table th {
+    background-color: #ff5722;
+}
