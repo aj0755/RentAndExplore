@@ -43,7 +43,7 @@ header {
 
 .logo {
     display: flex;
-    align-items: center; /* Vertically aligns the span to the middle of the image */
+    align-items: center; 
 }
 
 .logo img {
@@ -107,112 +107,6 @@ header {
     display: block;
 }
 
-/* Section Styling */
-.container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-section {
-    margin-bottom: 2rem;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: #0056b3;
-}
-
- /* Hero Section */
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 123, 255, 0.7);
-    padding: 2rem;
-    border-radius: 10px;
-}
-
-.date-selector {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.date-selector label {
-    font-size: 1rem;
-    color: white;
-    margin-bottom: 0.5rem;
-}
-
-.date-selector input,
-.date-selector select,
-.date-selector button {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.date-selector select {
-    width: 100%;
-    max-width: 300px;
-}
-
-.date-selector button {
-    background: #0056b3;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.date-selector button:hover {
-    background: #003d80;
-}
-/* Brand Logos Section */
-.brand-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.brand-logos img {
-    width: 100px;
-    height: auto;
-}
-
-/* Categories Section */
-.categories {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    text-align: center;
-}
-
-.categories .category img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
 /* Footer Styling */
 .footer {
     background-color: #0a0a0a;
@@ -272,35 +166,23 @@ h2 {
     color: #F5A623;
 }
 
-.footer-newsletter form {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.footer-newsletter input {
-    flex: 1;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.footer-newsletter button {
-    padding: 0.5rem 1rem;
-    background-color: #F5A623;
-    color: #1A1A1A;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.footer-newsletter button:hover {
-    background-color: #d48b20;
-}
-
 .footer-bottom {
     text-align: center;
     margin-top: 2rem;
     font-size: 0.9rem;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+    color: #f39c12; /* Change color on hover */
+    transform: scale(1.2);
 }
 
 .footer-social a {
@@ -311,6 +193,73 @@ h2 {
 .footer-social img {
     width: 24px;
     height: 24px;
+}
+
+/* Section Styling */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #0056b3;
+}
+
+ /* Home Page Css */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 123, 255, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    width: 100px;
+    height: auto;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+
+.categories .category img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 /* Testimonials Section Styling */
@@ -1240,7 +1189,7 @@ h2 {
     color: #555;
 }
 
-.vehicles-card-cars button, .vehicles-card-bikes button, .vehicles-card-machinery button {
+.vehicles-card-cars button, .vehicles-card-bikes-btn, .vehicles-card-machinery button {
     background-color: #F5A623;
     color: #1A1A1A;
     border: none;
@@ -1574,12 +1523,11 @@ section h2 {
 }
 
 /* booking */
-
 .product-detail-page {
     font-family: Arial, sans-serif;
     padding: 2rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px 15% 20px 15%;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -1591,7 +1539,8 @@ section h2 {
 }
 
 .product-image {
-    width: 100%;
+    width: 50%;
+    text-align:center;
     max-width: 600px;
     border-radius: 10px;
 }
@@ -1690,7 +1639,6 @@ section h2 {
 }
 
 /* payment */
-
 .payment-container {
     display: flex;
     justify-content: space-between;
@@ -1755,3 +1703,64 @@ strong {
 }
 
 
+/*Vehicle Repater Css*/
+/* Centering the product cards */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: center; /* Aligns items in the center vertically */
+    gap: 20px; /* Adds spacing between cards */
+    padding: 20px;
+}
+
+/* Styling for each product card */
+.product-card {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: #fff;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for product images */
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Heading styling */
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Price and brand text */
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* "View Details" button styling */
+.view-details-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.view-details-btn:hover {
+    background-color: #0056b3;
+}
