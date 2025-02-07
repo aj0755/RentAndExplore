@@ -24,24 +24,26 @@
     <form id="form1" runat="server">
     <header>
        <div class="header-container">
-    <div class="logo">
-        <img src="Logo/logo.jpg" alt="Rent And Explore Logo" />
-        <span>Rent And Explore</span>
+        <div class="logo">
+            <img src="Logo/logo.jpg" alt="Rent And Explore Logo" />
+            <span>Rent And Explore</span>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="homepage.aspx">Home</a></li>
+                    <li><a href="vehicle.aspx">Vehicles</a></li>
+                    <li><a href="aboutUs.aspx">About Us</a></li>
+                    <li><a href="contactUs.aspx">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                 <% if (Session["UserEmail"] != null) { %>
+                    <a href="UserInfo.aspx"><i class="fas fa-user"></i></a>
+                <% } else { %>
+                    <a href="Login.aspx">Login</a>
+                <% } %>
+            </div>
         </div>
-        <nav>
-            <ul class="navigation">
-                <li><a href="homepage.aspx">Home</a></li>
-                <li><a href="vehicle.aspx">Vehicles</a></li>
-                <li><a href="aboutUs.aspx">About Us</a></li>
-                <li><a href="contactUs.aspx">Contact Us</a></li>
-            </ul>
-        </nav>
-        <div class="login">
-            <a id="userActionLink" href="login.aspx">
-                <asp:ImageButton ID="btnUserLogo" runat="server" ImageUrl="~/Logo/User.png" CssClass="user-logo" OnClick="btnUserLogo_Click" />
-            </a>
-        </div>
-    </div>
     </header>
 
     <div>

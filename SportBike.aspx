@@ -3,28 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<%--<section id="vehicles-bikes" class="vehicles-section-bikes">
-            <h2 class="vehicles-title-bikes">Sport Bike</h2>
-            <div class="vehicles-grid-bikes">
-             <div class="vehicles-card-bikes">
-                    <img  src="Images/Sportbike1.jpg"  alt="Sportbike1">
-                    <h3>Bajaj Pulser 200</h3>
-                    <p>Comfartable to drive</p>
-                    <asp:Button ID="Pulser" runat="server" Text="View Details" 
-                        CssClass="vehicles-card-bikes-btn" onclick="Pulser_Click"/>
-                </div>
-                <div class="vehicles-card-bikes">
-                    <img src="Images/Sportbike2.jpg"  alt="Sportbike2">
-                    <h3> Tvs Apache RTR</h3>
-                    <p>Comfart and easy to drive</p>
-                    <asp:Button ID="Appache" runat="server" Text="View Details" 
-                        CssClass="vehicles-card-bikes-btn" onclick="Appache_Click"/>
-                </div>
-                
-                <!-- Additional Bikes -->
-            </div>
-        </section>--%>
-
    <div class="product-container">
     <asp:Repeater ID="RepeaterProducts" runat="server" 
            onitemcommand="RepeaterProducts_ItemCommand">

@@ -22,6 +22,23 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Anton", Serif;
+}
+
 .navigation {
     list-style: none;
     display: flex;
@@ -41,70 +58,35 @@ header {
     color: #F5A623;
 }
 
-.logo {
+.login {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.logo span {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Anton", Serif;
-}
-
-.login-logo {
-    width: 40px;     height: 40px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.login-logo:hover {
-    transform: scale(1.1); 
-}
-
-.user-dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.user-logo {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 120px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    text-align: left;
-    border-radius: 5px;
-}
-
-.dropdown-content a {
-    color: #333;
+.login a {
+    color: white;
     text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+.login a:hover {
+    background-color: white;
+    color: #333;
 }
 
-.user-dropdown:hover .dropdown-content {
-    display: block;
+.login a {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login a i {
+    font-size: 18px;
+    margin-right: 8px;
 }
 
 /* Footer Styling */

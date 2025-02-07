@@ -18,12 +18,12 @@
         function hideOtpModal() {
             document.getElementById("otpModal").style.display = "none";
             document.getElementById("modalOverlay").style.display = "none";
-        }m
+        }
     </script>
 </head>
 <body>
     <form id="form1" runat="server">
-<div class="register-page">
+    <div class="register-page">
         <div class="register-container">
             <!-- Logo Section -->
             <div class="Logo">
