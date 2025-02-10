@@ -33,7 +33,7 @@ public partial class Content_login : System.Web.UI.Page
                     Session["UserEmail"] = txtEmail.Text;
                     lblMessage.Text = "Login successful!";
                     lblMessage.ForeColor = System.Drawing.Color.Green;
-                    Response.Redirect("Admin/admindashboard.aspx?login=success");
+                    Response.Redirect("Admin/dashboard.aspx?login=success");
                 }
                 else
                 {
